@@ -1,0 +1,8 @@
+package: github.com/sqlite3perf
+import:
+- package: github.com/mitchellh/go-homedir
+- package: github.com/spf13/cobra
+- package: github.com/spf13/viper
+  version: ~1.0.0
+- package: github.com/mattn/go-sqlite3
+  version: ~1.4.0
