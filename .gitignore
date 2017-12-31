@@ -22,3 +22,11 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+vendor/
+
+\.cobra\.yml
+
+sqlite3perf
+
+sqlite3perf\.db
