@@ -38,6 +38,9 @@ var generateCmd = &cobra.Command{
 	Long: `This command generates records to benchmark against.
 Each record consists of an ID, a 8 byte hex encoded random value
 and a SHA256 hash of said random value.
+
+ATTENTION: The 'bench' table will be DROPPED each time this command is called, before it
+is (re)-generated!
 	`,
 	Run: func(cmd *cobra.Command, args []string) {
 		log.Printf("Generating %d records", numRecs)
