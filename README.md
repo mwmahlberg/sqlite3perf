@@ -1,3 +1,6 @@
+# Note
+This repository is unmaintained and just left so the link in the SO question it was trying to solve is not broken.
+
 # sqlite3perf
 
 This repository contains a small application which was created while researching a proper answer to the question [Faster sqlite 3 query in go? I need to process 1million+ rows as fast as possible][so:oq].
